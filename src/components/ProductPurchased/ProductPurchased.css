@@ -1,0 +1,8 @@
+.productPurchased {
+    display: flex;
+    justify-content: space-between;
+}
+
+.productPurchased p {
+    font-weight: 600;
+}

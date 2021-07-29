@@ -1,0 +1,6 @@
+.productListContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 50%;
+}

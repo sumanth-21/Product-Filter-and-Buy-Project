@@ -1,0 +1,45 @@
+.productContainer {
+    display: flex;
+    margin: 10px 0;
+}
+
+.productContainer img {
+    display: flex;
+}
+
+.productContainer .productImage {
+    position: relative;
+}
+
+.productImage .productStock {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: white;
+    padding: 0 10px;
+    border-bottom-left-radius: 50%;
+    opacity: 0.7;
+}
+
+.productImage .productStock p {
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+.productDetails {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 1px solid black; 
+    padding: 40px;
+}
+
+.productDetails label {
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.productDetails select {
+    padding: 5px;
+}
